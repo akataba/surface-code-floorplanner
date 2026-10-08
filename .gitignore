@@ -1,0 +1,15 @@
+.venv*/
+.deps/
+.local.json
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+runs/
+validation/
+mlruns/
+docs/_build/
+.ruff_cache/
+.ipynb_checkpoints/
+.DS_Store

@@ -1,0 +1,4 @@
+.wy-nav-content { max-width: 1100px; }
+.wy-table-responsive table td, .wy-table-responsive table th { white-space: normal; }
+.rst-content dl.field-list > dt { overflow-wrap: anywhere; }
+.rst-content .sig { overflow-wrap: anywhere; }

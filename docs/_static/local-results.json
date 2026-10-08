@@ -1,0 +1,796 @@
+{
+  "scope": "Retained local wave study; best-observed SA results; abstract tile-slices, not physical qubit-cycles.",
+  "families": [
+    {
+      "family": "line",
+      "seed_mean_reductions_vs_best_native_pct": {
+        "61": 30.27021145245107,
+        "62": 18.732917947646907
+      },
+      "circuits": 3,
+      "custom_wins_vs_best_successful_native": 3,
+      "comparable": 3,
+      "mean_volume_reduction_vs_best_native_pct": 30.27021145245107,
+      "mean_volume_reduction_vs_edpc_pct": 33.3289040970922
+    },
+    {
+      "family": "star",
+      "seed_mean_reductions_vs_best_native_pct": {
+        "61": 13.198928215570797,
+        "62": 1.6513316058552918
+      },
+      "circuits": 3,
+      "custom_wins_vs_best_successful_native": 3,
+      "comparable": 3,
+      "mean_volume_reduction_vs_best_native_pct": 15.924069377404463,
+      "mean_volume_reduction_vs_edpc_pct": 19.071834155615328
+    },
+    {
+      "family": "matching",
+      "seed_mean_reductions_vs_best_native_pct": {
+        "61": 21.34275538111341,
+        "62": 22.33215136056184
+      },
+      "circuits": 3,
+      "custom_wins_vs_best_successful_native": 3,
+      "comparable": 3,
+      "mean_volume_reduction_vs_best_native_pct": 22.700355822333556,
+      "mean_volume_reduction_vs_edpc_pct": 22.700355822333556
+    },
+    {
+      "family": "dense",
+      "seed_mean_reductions_vs_best_native_pct": {
+        "61": 25.25240660161295,
+        "62": 10.761464412258066
+      },
+      "circuits": 3,
+      "custom_wins_vs_best_successful_native": 3,
+      "comparable": 3,
+      "mean_volume_reduction_vs_best_native_pct": 25.54047244523435,
+      "mean_volume_reduction_vs_edpc_pct": 25.54047244523435
+    },
+    {
+      "family": "QFT",
+      "seed_mean_reductions_vs_best_native_pct": {
+        "61": 30.32195594287097,
+        "62": 5.307189542483659
+      },
+      "circuits": 1,
+      "custom_wins_vs_best_successful_native": 1,
+      "comparable": 1,
+      "mean_volume_reduction_vs_best_native_pct": 30.32195594287097,
+      "mean_volume_reduction_vs_edpc_pct": 30.32195594287097
+    },
+    {
+      "family": "Haar",
+      "seed_mean_reductions_vs_best_native_pct": {
+        "61": 45.44080916480847,
+        "62": 38.29965284369201
+      },
+      "circuits": 3,
+      "custom_wins_vs_best_successful_native": 3,
+      "comparable": 3,
+      "mean_volume_reduction_vs_best_native_pct": 45.44080916480847,
+      "mean_volume_reduction_vs_edpc_pct": 45.44080916480847
+    },
+    {
+      "family": "QSP",
+      "seed_mean_reductions_vs_best_native_pct": {
+        "61": 29.10092535621301,
+        "62": 21.897727391417465
+      },
+      "circuits": 2,
+      "custom_wins_vs_best_successful_native": 2,
+      "comparable": 2,
+      "mean_volume_reduction_vs_best_native_pct": 29.10092535621301,
+      "mean_volume_reduction_vs_edpc_pct": 29.10092535621301
+    },
+    {
+      "family": "QSVT",
+      "seed_mean_reductions_vs_best_native_pct": {
+        "61": 30.88072899281464,
+        "62": 30.88072899281464
+      },
+      "circuits": 2,
+      "custom_wins_vs_best_successful_native": 2,
+      "comparable": 2,
+      "mean_volume_reduction_vs_best_native_pct": 30.88072899281464,
+      "mean_volume_reduction_vs_edpc_pct": 30.88072899281464
+    }
+  ],
+  "native_successes": {
+    "compact": 7,
+    "compact_no_clogging": 7,
+    "edpc": 20
+  },
+  "circuits": [
+    {
+      "name": "test-line-10000",
+      "family": "line",
+      "winner": {
+        "count": 4,
+        "seed": 61,
+        "area": 42,
+        "slices": 218,
+        "volume": 9156
+      },
+      "native": [
+        {
+          "mode": "compact",
+          "status": "error",
+          "area": 33,
+          "slices": null,
+          "volume": null
+        },
+        {
+          "mode": "compact_no_clogging",
+          "status": "error",
+          "area": 18,
+          "slices": null,
+          "volume": null
+        },
+        {
+          "mode": "edpc",
+          "status": "success",
+          "area": 81,
+          "slices": 162,
+          "volume": 13122
+        }
+      ]
+    },
+    {
+      "name": "test-star-10001",
+      "family": "star",
+      "winner": {
+        "count": 4,
+        "seed": 62,
+        "area": 56,
+        "slices": 227,
+        "volume": 12712
+      },
+      "native": [
+        {
+          "mode": "compact",
+          "status": "error",
+          "area": 33,
+          "slices": null,
+          "volume": null
+        },
+        {
+          "mode": "compact_no_clogging",
+          "status": "error",
+          "area": 18,
+          "slices": null,
+          "volume": null
+        },
+        {
+          "mode": "edpc",
+          "status": "success",
+          "area": 81,
+          "slices": 172,
+          "volume": 13932
+        }
+      ]
+    },
+    {
+      "name": "test-matching-10002",
+      "family": "matching",
+      "winner": {
+        "count": 4,
+        "seed": 61,
+        "area": 42,
+        "slices": 207,
+        "volume": 8694
+      },
+      "native": [
+        {
+          "mode": "compact",
+          "status": "success",
+          "area": 33,
+          "slices": 586,
+          "volume": 19338
+        },
+        {
+          "mode": "compact_no_clogging",
+          "status": "success",
+          "area": 18,
+          "slices": 758,
+          "volume": 13644
+        },
+        {
+          "mode": "edpc",
+          "status": "success",
+          "area": 81,
+          "slices": 139,
+          "volume": 11259
+        }
+      ]
+    },
+    {
+      "name": "test-dense-10003",
+      "family": "dense",
+      "winner": {
+        "count": 16,
+        "seed": 62,
+        "area": 56,
+        "slices": 163,
+        "volume": 9128
+      },
+      "native": [
+        {
+          "mode": "compact",
+          "status": "error",
+          "area": 33,
+          "slices": null,
+          "volume": null
+        },
+        {
+          "mode": "compact_no_clogging",
+          "status": "error",
+          "area": 18,
+          "slices": null,
+          "volume": null
+        },
+        {
+          "mode": "edpc",
+          "status": "success",
+          "area": 81,
+          "slices": 160,
+          "volume": 12960
+        }
+      ]
+    },
+    {
+      "name": "test-line-10004",
+      "family": "line",
+      "winner": {
+        "count": 4,
+        "seed": 61,
+        "area": 42,
+        "slices": 242,
+        "volume": 10164
+      },
+      "native": [
+        {
+          "mode": "compact",
+          "status": "success",
+          "area": 33,
+          "slices": 634,
+          "volume": 20922
+        },
+        {
+          "mode": "compact_no_clogging",
+          "status": "success",
+          "area": 18,
+          "slices": 817,
+          "volume": 14706
+        },
+        {
+          "mode": "edpc",
+          "status": "success",
+          "area": 81,
+          "slices": 192,
+          "volume": 15552
+        }
+      ]
+    },
+    {
+      "name": "test-star-10005",
+      "family": "star",
+      "winner": {
+        "count": 8,
+        "seed": 61,
+        "area": 56,
+        "slices": 171,
+        "volume": 9576
+      },
+      "native": [
+        {
+          "mode": "compact",
+          "status": "success",
+          "area": 33,
+          "slices": 512,
+          "volume": 16896
+        },
+        {
+          "mode": "compact_no_clogging",
+          "status": "success",
+          "area": 18,
+          "slices": 649,
+          "volume": 11682
+        },
+        {
+          "mode": "edpc",
+          "status": "success",
+          "area": 81,
+          "slices": 163,
+          "volume": 13203
+        }
+      ]
+    },
+    {
+      "name": "test-matching-10006",
+      "family": "matching",
+      "winner": {
+        "count": 8,
+        "seed": 62,
+        "area": 64,
+        "slices": 98,
+        "volume": 6272
+      },
+      "native": [
+        {
+          "mode": "compact",
+          "status": "error",
+          "area": 33,
+          "slices": null,
+          "volume": null
+        },
+        {
+          "mode": "compact_no_clogging",
+          "status": "error",
+          "area": 18,
+          "slices": null,
+          "volume": null
+        },
+        {
+          "mode": "edpc",
+          "status": "success",
+          "area": 81,
+          "slices": 97,
+          "volume": 7857
+        }
+      ]
+    },
+    {
+      "name": "test-dense-10007",
+      "family": "dense",
+      "winner": {
+        "count": 4,
+        "seed": 61,
+        "area": 63,
+        "slices": 166,
+        "volume": 10458
+      },
+      "native": [
+        {
+          "mode": "compact",
+          "status": "error",
+          "area": 33,
+          "slices": null,
+          "volume": null
+        },
+        {
+          "mode": "compact_no_clogging",
+          "status": "error",
+          "area": 18,
+          "slices": null,
+          "volume": null
+        },
+        {
+          "mode": "edpc",
+          "status": "success",
+          "area": 81,
+          "slices": 148,
+          "volume": 11988
+        }
+      ]
+    },
+    {
+      "name": "test-line-10008",
+      "family": "line",
+      "winner": {
+        "count": 4,
+        "seed": 61,
+        "area": 40,
+        "slices": 180,
+        "volume": 7200
+      },
+      "native": [
+        {
+          "mode": "compact",
+          "status": "success",
+          "area": 33,
+          "slices": 436,
+          "volume": 14388
+        },
+        {
+          "mode": "compact_no_clogging",
+          "status": "success",
+          "area": 18,
+          "slices": 569,
+          "volume": 10242
+        },
+        {
+          "mode": "edpc",
+          "status": "success",
+          "area": 81,
+          "slices": 137,
+          "volume": 11097
+        }
+      ]
+    },
+    {
+      "name": "test-star-10009",
+      "family": "star",
+      "winner": {
+        "count": 16,
+        "seed": 61,
+        "area": 64,
+        "slices": 122,
+        "volume": 7808
+      },
+      "native": [
+        {
+          "mode": "compact",
+          "status": "error",
+          "area": 33,
+          "slices": null,
+          "volume": null
+        },
+        {
+          "mode": "compact_no_clogging",
+          "status": "error",
+          "area": 18,
+          "slices": null,
+          "volume": null
+        },
+        {
+          "mode": "edpc",
+          "status": "success",
+          "area": 81,
+          "slices": 122,
+          "volume": 9882
+        }
+      ]
+    },
+    {
+      "name": "test-matching-10010",
+      "family": "matching",
+      "winner": {
+        "count": 16,
+        "seed": 61,
+        "area": 64,
+        "slices": 108,
+        "volume": 6912
+      },
+      "native": [
+        {
+          "mode": "compact",
+          "status": "success",
+          "area": 33,
+          "slices": 516,
+          "volume": 17028
+        },
+        {
+          "mode": "compact_no_clogging",
+          "status": "success",
+          "area": 18,
+          "slices": 663,
+          "volume": 11934
+        },
+        {
+          "mode": "edpc",
+          "status": "success",
+          "area": 81,
+          "slices": 114,
+          "volume": 9234
+        }
+      ]
+    },
+    {
+      "name": "test-dense-10011",
+      "family": "dense",
+      "winner": {
+        "count": 16,
+        "seed": 61,
+        "area": 48,
+        "slices": 163,
+        "volume": 7824
+      },
+      "native": [
+        {
+          "mode": "compact",
+          "status": "error",
+          "area": 33,
+          "slices": null,
+          "volume": null
+        },
+        {
+          "mode": "compact_no_clogging",
+          "status": "error",
+          "area": 18,
+          "slices": null,
+          "volume": null
+        },
+        {
+          "mode": "edpc",
+          "status": "success",
+          "area": 81,
+          "slices": 147,
+          "volume": 11907
+        }
+      ]
+    },
+    {
+      "name": "qsp-d3",
+      "family": "QSP",
+      "winner": {
+        "count": 8,
+        "seed": 61,
+        "area": 48,
+        "slices": 4729,
+        "volume": 226992
+      },
+      "native": [
+        {
+          "mode": "compact",
+          "status": "success",
+          "area": 33,
+          "slices": 22369,
+          "volume": 738177
+        },
+        {
+          "mode": "compact_no_clogging",
+          "status": "success",
+          "area": 18,
+          "slices": 30344,
+          "volume": 546192
+        },
+        {
+          "mode": "edpc",
+          "status": "success",
+          "area": 81,
+          "slices": 3940,
+          "volume": 319140
+        }
+      ]
+    },
+    {
+      "name": "qsp-d7",
+      "family": "QSP",
+      "winner": {
+        "count": 8,
+        "seed": 61,
+        "area": 48,
+        "slices": 10075,
+        "volume": 483600
+      },
+      "native": [
+        {
+          "mode": "compact",
+          "status": "success",
+          "area": 33,
+          "slices": 47349,
+          "volume": 1562517
+        },
+        {
+          "mode": "compact_no_clogging",
+          "status": "success",
+          "area": 18,
+          "slices": 63949,
+          "volume": 1151082
+        },
+        {
+          "mode": "edpc",
+          "status": "success",
+          "area": 81,
+          "slices": 8448,
+          "volume": 684288
+        }
+      ]
+    },
+    {
+      "name": "qsvt-d3",
+      "family": "QSVT",
+      "winner": {
+        "count": 16,
+        "seed": 61,
+        "area": 56,
+        "slices": 6572,
+        "volume": 368032
+      },
+      "native": [
+        {
+          "mode": "compact",
+          "status": "error",
+          "area": 33,
+          "slices": null,
+          "volume": null
+        },
+        {
+          "mode": "compact_no_clogging",
+          "status": "error",
+          "area": 18,
+          "slices": null,
+          "volume": null
+        },
+        {
+          "mode": "edpc",
+          "status": "success",
+          "area": 81,
+          "slices": 6573,
+          "volume": 532413
+        }
+      ]
+    },
+    {
+      "name": "qsvt-d7",
+      "family": "QSVT",
+      "winner": {
+        "count": 16,
+        "seed": 61,
+        "area": 56,
+        "slices": 15328,
+        "volume": 858368
+      },
+      "native": [
+        {
+          "mode": "compact",
+          "status": "error",
+          "area": 33,
+          "slices": null,
+          "volume": null
+        },
+        {
+          "mode": "compact_no_clogging",
+          "status": "error",
+          "area": 18,
+          "slices": null,
+          "volume": null
+        },
+        {
+          "mode": "edpc",
+          "status": "success",
+          "area": 81,
+          "slices": 15333,
+          "volume": 1241973
+        }
+      ]
+    },
+    {
+      "name": "qft5",
+      "family": "QFT",
+      "winner": {
+        "count": 8,
+        "seed": 61,
+        "area": 56,
+        "slices": 5140,
+        "volume": 287840
+      },
+      "native": [
+        {
+          "mode": "compact",
+          "status": "error",
+          "area": 33,
+          "slices": null,
+          "volume": null
+        },
+        {
+          "mode": "compact_no_clogging",
+          "status": "error",
+          "area": 18,
+          "slices": null,
+          "volume": null
+        },
+        {
+          "mode": "edpc",
+          "status": "success",
+          "area": 81,
+          "slices": 5100,
+          "volume": 413100
+        }
+      ]
+    },
+    {
+      "name": "haar-101",
+      "family": "Haar",
+      "winner": {
+        "count": 4,
+        "seed": 61,
+        "area": 35,
+        "slices": 451746,
+        "volume": 15811110
+      },
+      "native": [
+        {
+          "mode": "compact",
+          "status": "error",
+          "area": 33,
+          "slices": null,
+          "volume": null
+        },
+        {
+          "mode": "compact_no_clogging",
+          "status": "error",
+          "area": 18,
+          "slices": null,
+          "volume": null
+        },
+        {
+          "mode": "edpc",
+          "status": "success",
+          "area": 81,
+          "slices": 413822,
+          "volume": 33519582
+        }
+      ]
+    },
+    {
+      "name": "haar-102",
+      "family": "Haar",
+      "winner": {
+        "count": 4,
+        "seed": 61,
+        "area": 35,
+        "slices": 451872,
+        "volume": 15815520
+      },
+      "native": [
+        {
+          "mode": "compact",
+          "status": "error",
+          "area": 33,
+          "slices": null,
+          "volume": null
+        },
+        {
+          "mode": "compact_no_clogging",
+          "status": "error",
+          "area": 18,
+          "slices": null,
+          "volume": null
+        },
+        {
+          "mode": "edpc",
+          "status": "success",
+          "area": 81,
+          "slices": 413301,
+          "volume": 33477381
+        }
+      ]
+    },
+    {
+      "name": "haar-103",
+      "family": "Haar",
+      "winner": {
+        "count": 8,
+        "seed": 61,
+        "area": 56,
+        "slices": 414222,
+        "volume": 23196432
+      },
+      "native": [
+        {
+          "mode": "compact",
+          "status": "error",
+          "area": 33,
+          "slices": null,
+          "volume": null
+        },
+        {
+          "mode": "compact_no_clogging",
+          "status": "error",
+          "area": 18,
+          "slices": null,
+          "volume": null
+        },
+        {
+          "mode": "edpc",
+          "status": "success",
+          "area": 81,
+          "slices": 413447,
+          "volume": 33489207
+        }
+      ]
+    }
+  ],
+  "accounting": {
+    "score_requests": 9100,
+    "new_native_compilations": 7625,
+    "cache_hits": 1475
+  },
+  "charged_search_slots": 8960,
+  "native_and_export_calls": 120,
+  "winner_replay_calls": 140
+}

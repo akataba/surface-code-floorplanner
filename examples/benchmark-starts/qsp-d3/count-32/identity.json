@@ -1,0 +1,32 @@
+{
+  "logical_qubit_positions": [
+    [
+      15,
+      2
+    ],
+    [
+      8,
+      1
+    ],
+    [
+      14,
+      4
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      6,
+      4
+    ]
+  ],
+  "logical_to_compiler_index": [
+    4,
+    2,
+    3,
+    0,
+    1
+  ],
+  "interpretation": "compiler wire logical_to_compiler_index[q] carries logical qubit q"
+}
