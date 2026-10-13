@@ -97,3 +97,11 @@ Build `liblsqecc_adapter` with `scripts/build_liblsqecc_adapter.py`. Supply its
 location using `--adapter` on the command line or `adapter_path` in Python.
 This is a breaking interface rename; older executable names and command-line
 options are not provided as aliases. Saved experiment evidence is unchanged.
+
+## Semantic verification
+
+See [computational correctness](docs/correctness.md) for the tests and their limits.
+Run `python scripts/verify_semantics.py --adapter .deps/adapter/liblsqecc_adapter`
+after installing `.[haar]`. The command refuses skipped tests. Passing checks do
+not certify full compiled execution: the pinned compiler omits outcome-dependent
+correction information and its printed T/T-dagger lowering is indistinguishable.

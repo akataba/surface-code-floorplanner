@@ -23,6 +23,11 @@ The mean per-circuit volume reduction against the best successful native layout
 is **28.50%**, with custom wins on 20/20 comparable circuits. These are compiler
 tile-slice results, not physical hardware estimates or a proof of general superiority.
 
+See [computational correctness](correctness.md) for semantic test coverage and
+known omissions in the pinned compiler's measurement/correction representation.
+Successful replay certifies reproducibility of the score, not complete quantum
+execution equivalence.
+
 ## Circuit families
 
 A circuit family groups inputs with related interaction structure or construction.

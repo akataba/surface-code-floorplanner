@@ -47,3 +47,13 @@ The project license remains undecided at the owner's request; see NOTICE.md.
 Choose a GitHub repository owner/name and public/private visibility before upload.
 Treat this folder as a separate copy: later edits to the original project do not
 automatically propagate here.
+
+## Semantic test update — 2026-10-12
+
+The publication now includes the corrected-corpus synthesis tests and their three
+generator helpers, independent unitary/mapping tests, reference measurement gadgets,
+and real abstract-LLI regression checks. `verify_semantics.py` passed 23 tests with
+no skips. Full compiled quantum execution remains unverified; see
+[the correctness guide](docs/correctness.md), including the pinned T/T-dagger
+information-loss limitation. Passing these tests does not certify the local
+measurement implementation or supply missing outcome-dependent corrections.

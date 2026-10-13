@@ -44,6 +44,7 @@ quickstart
 integration
 api
 algorithms
+correctness
 local-compilation
 local-results
 history-status
