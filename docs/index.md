@@ -1,5 +1,7 @@
 # Lattice Floorplan
 
+[View the source code on GitHub](https://github.com/akataba/surface-code-floorplanner).
+
 **Generate lattice-surgery grids and minimize grid area × compiled time slices.**
 
 Area is the full rectangular grid size in abstract tiles. Time slices count
@@ -57,4 +59,5 @@ history-status
 reference/index
 development
 publishing
+GitHub repository <https://github.com/akataba/surface-code-floorplanner>
 ```
